@@ -120,4 +120,4 @@ Replace `<unique_suffix>` in `providers.tf` with the actual storage account name
 
 ## License
 
-MIT
+[M0h4j1r](https://www.linkedin.com/in/m0h4j1r/)
