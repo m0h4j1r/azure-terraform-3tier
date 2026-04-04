@@ -1,0 +1,29 @@
+# ── Terraform state & local config ──────────────────────────────────────────
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+tfplan
+crash.log
+crash.*.log
+
+# ── Sensitive variable files ─────────────────────────────────────────────────
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ── SSH keys ─────────────────────────────────────────────────────────────────
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# ── OS / editor artefacts ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
