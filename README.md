@@ -8,6 +8,7 @@ A production-ready, modular Terraform project that deploys a **three-tier archit
 
 ![Architecture Overview](topologie.gif)
 
+
 All subnets live inside a single VNet (`10.0.0.0/16`) and are protected by dedicated Network Security Groups with least-privilege rules.
 
 ---
