@@ -1,9 +1,9 @@
 name: Star Event Workflow
 
 on:
-push:
-  branches:
-    - main
+  push:
+    branches:
+      - main
     
 jobs:
   example-job:
